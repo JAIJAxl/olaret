@@ -1,0 +1,89 @@
+.navbar {
+  background-color: #000;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  min-height: 90px;
+}
+
+.navbar-toggler { font-size: 40px; color: #fff}
+.navbar-toggler:focus { outline: none; }
+
+.navbar-nav {
+	font-family: Century Gothic;
+	font-style: bold;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	position: absolute;
+	right: 0;
+	z-index: 20;
+	padding-top: 25px;
+	padding-right: 60px;
+
+	li {
+		display: inline-block;
+		list-style: outside none none;
+		margin: 0 1em;
+		padding: 0;
+	}
+}
+
+.navbar-nav a {
+	padding: 0.5em 0.8em;
+	margin: 0.2em 0;
+	display: absolute;
+	color: white;
+	position: relative;
+	text-decoration: none;
+}
+
+.navbar-nav a:before,
+.navbar-nav a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: "";
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.navbar-nav a:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+
+.navbar-nav a:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}		
+
+.navbar-nav a:hover:before,
+.navbar-nav .current a:before,
+.navbar-nav a:hover:after,
+.navbar-nav .current a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+
+.logo-brand {
+	min-height: 50px;
+	max-height: 64px;
+	padding-left: 60px;
+
+	&:hover{
+		animation: headShake;
+		animation-duration: 1.5s;
+	}
+}
+
