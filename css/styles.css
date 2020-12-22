@@ -186,3 +186,11 @@ footer {
 
 .contenido-texto-card {
   color: #D01E49; }
+
+.secundario {
+  margin-top:.4%;
+  padding-left:15%;
+  padding-right:15%;
+  font-size:18px;
+  text-align: justify;
+}
