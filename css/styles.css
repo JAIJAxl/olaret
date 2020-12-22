@@ -145,6 +145,13 @@ body {
   font-size: 50px;
   font-weight: 100; }
 
+.secundario {
+  margin-top:.4%;
+  padding-left:15%;
+  padding-right:15%;
+  font-size:18px;
+  text-align: justify; }
+
 .titulo {
   color: blue;
   font-size: 30px;
@@ -186,10 +193,3 @@ footer {
 
 .contenido-texto-card {
   color: #D01E49; }
-
-.secundario {
-  margin-top:.4%;
-  padding-left:15%;
-  padding-right:15%;
-  font-size:18px;
-  text-align: justify; }
