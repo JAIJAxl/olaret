@@ -121,6 +121,7 @@ body {
   background-position: center;
   background-size: cover; }
   .img-first .welcome {
+    color: white;
     position: absolute;
     top: 0;
     left: 0;
@@ -131,16 +132,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    color: #fff;
 }
 
 .img-first .welcome p{
-margin-top:.4%;
-padding-left:15%;
-padding-right:15%;
-font-size:18px;
-text-align: justify;
-}
+  color: white;
+  margin-top:.4%;
+  padding-left:15%;
+  padding-right:15%;
+  font-size:18px;
+  text-align: justify;
+ }
 
 .img-firts .welcome .h1 {
   font-size: 50px;
