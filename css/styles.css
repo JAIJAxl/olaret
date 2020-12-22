@@ -101,6 +101,7 @@ body {
   font-family: 'Titillium Web', sans-serif; }
 
 #demo {
+  margin: auto;
   width: 900px;
   height: 650px;
   overflow: hidden; }
